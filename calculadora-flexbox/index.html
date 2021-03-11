@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <section class="container">
+        <article class="linha linha-resultado">
+            <input type="text" id="resultado" class="formulario valor" placeholder="0" disabled>
+        </article>
+        <article class="linha">
+            <div class="item"><button onclick="calcular('acao','c')" class="btn acao">C</button></div>
+            <div class="item"><button onclick="calcular('acao', 'Math.sqrt')" class="btn acao">Raiz</button></div>
+            <div class="item"><button onclick="calcular('acao','/')" class="btn acao">/</button></div>
+            <div class="item"><button onclick="calcular('acao','*')" class="btn acao">x</button></div>
+        </article>
+        <article class="linha">
+            <div class="item"><button onclick="calcular('valor','7')" class="btn valor">7</button></div>
+            <div class="item"><button onclick="calcular('valor','8')" class="btn valor">8</button></div>
+            <div class="item"><button onclick="calcular('valor','9')" class="btn valor">9</button></div>
+            <div class="item"><button onclick="calcular('acao','-')" class="btn acao">-</button></div>
+        </article>
+        <article class="linha">
+            <div class="item"><button onclick="calcular('valor','4')" class="btn valor">4</button></div>
+            <div class="item"><button onclick="calcular('valor','5')" class="btn valor">5</button></div>
+            <div class="item"><button onclick="calcular('valor','6')" class="btn valor">6</button></div>
+            <div class="item"><button onclick="calcular('acao','+')" class="btn acao">+</button></div>
+        </article>
+        <article class="linha">
+            <div class="item"><button onclick="calcular('valor','1')" class="btn valor">1</button></div>
+            <div class="item"><button onclick="calcular('valor','2')" class="btn valor">2</button></div>
+            <div class="item"><button onclick="calcular('valor','3')" class="btn valor">3</button></div>
+            <div class="item"><button onclick="calcular('valor','0')" class="btn valor">0</button></div>
+        </article>
+        <article class="linha">
+            <div class="item"><button onclick="calcular('acao', '(')" class="btn acao">(</button></div>
+            <div class="item"><button onclick="calcular('acao', ')')" class="btn acao">)</button></div>
+            <div class="item"><button onclick="calcular('acao','.')" class="btn acao">.</button></div>
+            <div class="item"><button onclick="calcular('acao','=')" class="btn acao">=</button></div>
+        </article>
+    </section>
+    <script src="js/codigo.js"></script>
+</body>
+
+</html>
